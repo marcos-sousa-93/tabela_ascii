@@ -259,6 +259,46 @@
 | `FE`    | 254     | `■`       | Quadrado preto                    | |
 | `FF`    | 255     | ` `       | Espaço sem quebra                 | |
 
+| HEX     | LETRAS COM ACENTUAÇÕES | DESCRIÇÃO |
+|---------|---------|---------|
+| `C3 A0` | `à`     | Letra `a` minúsculo com acento grave | 
+| `C3 A1` | `á`     | Letra `a` minúsculo com acento agudo |
+| `C3 A2` | `â`     | letra `a` minúsculo com acento circunflexo |
+| `C3 A3` | `ã`     | letra `a` minúsculo com acento til |
+| `C3 A8` | `è`     | Letra `e` minúsculo com acento grave |
+| `C3 A9` | `é`     | Letra `e` minúsculo com acento agudo |
+| `C3 AA` | `ê`     | letra `e` minúsculo com acento circunflexo |
+| `C3 AC` | `ì`     | Letra `i` minúsculo com acento grave |
+| `C3 AD` | `í`     | letra `i` minúsculo com acento agudo |
+| `C3 AE` | `î`     | letra `î` minúsculo com acento circunflexo |
+| `C3 B2` | `ò`     | Letra `o` minúsculo com acento grave |
+| `C3 B3` | `ó`     | letra `o` minúsculo com acento agudo |
+| `C3 B4` | `ô`     | letra `o` minúsculo com acento circunflexo |
+| `C3 B5` | `õ`     | letra `o` minúsculo com acento til |
+| `C3 B9` | `ù`     | Letra `u` minúsculo com acento grave |
+| `C3 BA` | `ú`     | letra `u` minúsculo com acento agudo |
+| `C3 BB` | `û`     | letra `o` minúsculo com acento circunflexo |
+| `C3 A7` | `ç`     | letra `c` minúsculo com c cedilha |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+| `` | ``     | Letra `` maiúsculo |
+
+
 ### **Observações Importantes**:
 1. **ASCII Padrão (0x00–0x7F)**:
    - Contém **caracteres de controle** (não imprimíveis) e **caracteres imprimíveis** básicos.
