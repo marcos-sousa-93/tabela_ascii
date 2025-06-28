@@ -261,42 +261,42 @@
 
 | HEX     | LETRAS COM ACENTUAÇÕES | DESCRIÇÃO |
 |---------|---------|---------|
-| `C3 A0` | `à`     | Letra `a` minúsculo com acento grave | 
-| `C3 A1` | `á`     | Letra `a` minúsculo com acento agudo |
-| `C3 A2` | `â`     | letra `a` minúsculo com acento circunflexo |
-| `C3 A3` | `ã`     | letra `a` minúsculo com acento til |
-| `C3 A8` | `è`     | Letra `e` minúsculo com acento grave |
-| `C3 A9` | `é`     | Letra `e` minúsculo com acento agudo |
-| `C3 AA` | `ê`     | letra `e` minúsculo com acento circunflexo |
-| `C3 AC` | `ì`     | Letra `i` minúsculo com acento grave |
-| `C3 AD` | `í`     | letra `i` minúsculo com acento agudo |
+| `C3 A0` | `à`     | letra `à` minúsculo com acento grave | 
+| `C3 A1` | `á`     | letra `á` minúsculo com acento agudo |
+| `C3 A2` | `â`     | letra `â` minúsculo com acento circunflexo |
+| `C3 A3` | `ã`     | letra `ã` minúsculo com acento til |
+| `C3 A8` | `è`     | letra `è` minúsculo com acento grave |
+| `C3 A9` | `é`     | letra `é` minúsculo com acento agudo |
+| `C3 AA` | `ê`     | letra `ê` minúsculo com acento circunflexo |
+| `C3 AC` | `ì`     | letra `ì` minúsculo com acento grave |
+| `C3 AD` | `í`     | letra `í` minúsculo com acento agudo |
 | `C3 AE` | `î`     | letra `î` minúsculo com acento circunflexo |
-| `C3 B2` | `ò`     | Letra `o` minúsculo com acento grave |
-| `C3 B3` | `ó`     | letra `o` minúsculo com acento agudo |
-| `C3 B4` | `ô`     | letra `o` minúsculo com acento circunflexo |
-| `C3 B5` | `õ`     | letra `o` minúsculo com acento til |
-| `C3 B9` | `ù`     | Letra `u` minúsculo com acento grave |
-| `C3 BA` | `ú`     | letra `u` minúsculo com acento agudo |
-| `C3 BB` | `û`     | letra `o` minúsculo com acento circunflexo |
-| `C3 A7` | `ç`     | letra `c` minúsculo com c cedilha |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
-| `` | ``     | Letra `` maiúsculo |
+| `C3 B2` | `ò`     | letra `ò` minúsculo com acento grave |
+| `C3 B3` | `ó`     | letra `ó` minúsculo com acento agudo |
+| `C3 B4` | `ô`     | letra `ô` minúsculo com acento circunflexo |
+| `C3 B5` | `õ`     | letra `õ` minúsculo com acento til |
+| `C3 B9` | `ù`     | letra `ù` minúsculo com acento grave |
+| `C3 BA` | `ú`     | letra `ú` minúsculo com acento agudo |
+| `C3 BB` | `û`     | letra `û` minúsculo com acento circunflexo |
+| `C3 A7` | `ç`     | letra `ç` minúsculo com c cedilha |
+| `C3 80` | `À`     | letra `À` maiúsculo com acento grave |
+| `C3 81` | `Á`     | letra `Á` maiúsculo com acento agudo |
+| `C3 82` | `Â`     | letra `Â` maiúsculo com acento circunflexo |
+| `C3 83` | `Ã`     | letra `Ã` maiúsculo com acento til |
+| `C3 88` | `È`     | letra `È` maiúsculo com acento grave |
+| `C3 89` | `É`     | letra `É` maiúsculo com acento agudo |
+| `C3 8A` | `Ê`     | letra `Ê` maiúsculo com acento circunflexo |
+| `C3 8C` | `Ì`     | letra `Ì` maiúsculo com acento grave |
+| `C3 8D` | `Í`     | letra `Í` maiúsculo com acento agudo |
+| `C3 8E` | `Î`     | letra `Î` maiúsculo com acento circunflexo |
+| `C3 92` | `Ò`     | letra `Ò` maiúsculo com acento grave |
+| `C3 93` | `Ó`     | letra `Ó` maiúsculo com acento agudo |
+| `C3 94` | `Ô`     | letra `Ô` maiúsculo com acento circunflexo |
+| `C3 95` | `Õ`     | letra `Õ` maiúsculo com acento til |
+| `C3 99` | `Ù`     | letra `Ù` maiúsculo com acento grave |
+| `C3 9A` | `Ú`     | letra `Ú` maiúsculo com acento agudo |
+| `C3 9B` | `Û`     | letra `Û` maiúsculo com acento circunflexo |
+| `C3 87` | `Ç`     | letra `Ç` maiúsculo com acento C cedilha |
 
 
 ### **Observações Importantes**:
