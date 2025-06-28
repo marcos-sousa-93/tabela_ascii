@@ -130,134 +130,134 @@
 | `7D`    | 125     | `}`       | Chave direita                     | |
 | `7E`    | 126     | `~`       | Til                               | |
 | `7F`    | 127     | `DEL`     | Delete                            | |
-| `80`    | 128     | `Ç`       | C cedilha maiúscula               | |
+| `80`    | 128     | `€`       | C cedilha maiúscula               | |
 | `81`    | 129     | `ü`       | u com trema                       | |
-| `82`    | 130     | `é`       | e agudo                           | |
-| `83`    | 131     | `â`       | a circunflexo                     | |
-| `84`    | 132     | `ä`       | a com trema                       | |
-| `85`    | 133     | `à`       | a grave                           | |
-| `86`    | 134     | `å`       | a com anel                        | |
-| `87`    | 135     | `ç`       | c cedilha minúscula               | |
-| `88`    | 136     | `ê`       | e circunflexo                     | |
-| `89`    | 137     | `ë`       | e com trema                       | |
-| `8A`    | 138     | `è`       | e grave                           | |
-| `8B`    | 139     | `ï`       | i com trema                       | |
-| `8C`    | 140     | `î`       | i circunflexo                     | |
+| `82`    | 130     | `‚`       | e agudo                           | |
+| `83`    | 131     | `ƒ`       | a circunflexo                     | |
+| `84`    | 132     | `„`       | a com trema                       | |
+| `85`    | 133     | `…`       | a grave                           | |
+| `86`    | 134     | `†`       | a com anel                        | |
+| `87`    | 135     | `‡`       | c cedilha minúscula               | |
+| `88`    | 136     | `ˆ`       | e circunflexo                     | |
+| `89`    | 137     | `‰`       | e com trema                       | |
+| `8A`    | 138     | `Š`       | e grave                           | |
+| `8B`    | 139     | `‹`       | i com trema                       | |
+| `8C`    | 140     | `Œ`       | i circunflexo                     | |
 | `8D`    | 141     | `ì`       | i grave                           | |
-| `8E`    | 142     | `Ä`       | A com trema                       | |
+| `8E`    | 142     | `Ž`       | A com trema                       | |
 | `8F`    | 143     | `Å`       | A com anel                        | |
 | `90`    | 144     | `É`       | E agudo                           | |
-| `91`    | 145     | `æ`       | Ligatura ae                       | |
-| `92`    | 146     | `Æ`       | Ligatura AE                       | |
-| `93`    | 147     | `ô`       | o circunflexo                     | |
-| `94`    | 148     | `ö`       | o com trema                       | |
-| `95`    | 149     | `ò`       | o grave                           | |
-| `96`    | 150     | `û`       | u circunflexo                     | |
-| `97`    | 151     | `ù`       | u grave                           | |
-| `98`    | 152     | `ÿ`       | y com trema                       | |
-| `99`    | 153     | `Ö`       | O com trema                       | |
-| `9A`    | 154     | `Ü`       | U com trema                       | |
-| `9B`    | 155     | `¢`       | Centavo                           | |
-| `9C`    | 156     | `£`       | Libra esterlina                   | |
-| `9D`    | 157     | `¥`       | Yen                               | |
-| `9E`    | 158     | `₧`       | Peseta                            | |
-| `9F`    | 159     | `ƒ`       | Florim                            | |
-| `A0`    | 160     | `á`       | a agudo                           | |
-| `A1`    | 161     | `í`       | i agudo                           | |
-| `A2`    | 162     | `ó`       | o agudo                           | |
-| `A3`    | 163     | `ú`       | u agudo                           | |
-| `A4`    | 164     | `ñ`       | n com til                         | |
-| `A5`    | 165     | `Ñ`       | N com til                         | |
-| `A6`    | 166     | `ª`       | Ordem feminina                    | |
-| `A7`    | 167     | `º`       | Ordem masculina                   | |
-| `A8`    | 168     | `¿`       | Interrogação invertida            | |
-| `A9`    | 169     | `⌐`       | Símbolo gráfico                   | |
-| `AA`    | 170     | `¬`       | Negação                           | |
-| `AB`    | 171     | `½`       | Meio                              | |
-| `AC`    | 172     | `¼`       | Um quarto                         | |
-| `AD`    | 173     | `¡`       | Exclamação invertida              | |
-| `AE`    | 174     | `«`       | Aspas angulares esquerda          | |
-| `AF`    | 175     | `»`       | Aspas angulares direita           | |
-| `B0`    | 176     | `░`       | Bloco claro                       | |
-| `B1`    | 177     | `▒`       | Bloco médio                       | |
-| `B2`    | 178     | `▓`       | Bloco escuro                      | |
-| `B3`    | 179     | `│`       | Linha vertical                    | |
-| `B4`    | 180     | `┤`       | Linha vertical + direita          | |
-| `B5`    | 181     | `╡`       | Linha vertical dupla              | |
-| `B6`    | 182     | `╢`       | Linha vertical dupla + direita    | |
-| `B7`    | 183     | `╖`       | Canto superior esquerdo           | |
-| `B8`    | 184     | `╕`       | Canto superior direito            | |
-| `B9`    | 185     | `╣`       | Linha vertical dupla + esquerda   | |
-| `BA`    | 186     | `║`       | Linha vertical dupla              | |
-| `BB`    | 187     | `╗`       | Canto inferior direito            | |
-| `BC`    | 188     | `╝`       | Canto inferior esquerdo           | |
-| `BD`    | 189     | `╜`       | Canto inferior esquerdo duplo     | |
-| `BE`    | 190     | `╛`       | Canto inferior direito duplo      | |
-| `BF`    | 191     | `┐`       | Canto superior direito            | |
-| `C0`    | 192     | `└`       | Canto inferior esquerdo           | |
-| `C1`    | 193     | `┴`       | Linha horizontal inferior         | |
-| `C2`    | 194     | `┬`       | Linha horizontal superior         | |
-| `C3`    | 195     | `├`       | Linha vertical + esquerda         | |
-| `C4`    | 196     | `─`       | Linha horizontal                  | |
-| `C5`    | 197     | `┼`       | Cruz                              | |
-| `C6`    | 198     | `╞`       | Linha vertical dupla + esquerda   | |
-| `C7`    | 199     | `╟`       | Linha vertical dupla + direita    | |
-| `C8`    | 200     | `╚`       | Canto inferior esquerdo duplo     | |
-| `C9`    | 201     | `╔`       | Canto superior esquerdo duplo     | |
-| `CA`    | 202     | `╩`       | Linha horizontal inferior dupla   | |
-| `CB`    | 203     | `╦`       | Linha horizontal superior dupla   | |
-| `CC`    | 204     | `╠`       | Linha vertical dupla + esquerda   | |
-| `CD`    | 205     | `═`       | Linha horizontal dupla            | |
-| `CE`    | 206     | `╬`       | Cruz dupla                        | |
-| `CF`    | 207     | `╧`       | Linha horizontal inferior dupla   | |
-| `D0`    | 208     | `╨`       | Linha horizontal inferior dupla   | |
-| `D1`    | 209     | `╤`       | Linha horizontal superior dupla   | |
-| `D2`    | 210     | `╥`       | Linha horizontal superior dupla   | |
-| `D3`    | 211     | `╙`       | Canto inferior direito duplo      | |
-| `D4`    | 212     | `╘`       | Canto inferior esquerdo duplo     | |
-| `D5`    | 213     | `╒`       | Canto superior esquerdo duplo     | |
-| `D6`    | 214     | `╓`       | Canto superior direito duplo      | |
-| `D7`    | 215     | `╫`       | Cruz dupla                        | |
-| `D8`    | 216     | `╪`       | Cruz dupla                        | |
-| `D9`    | 217     | `┘`       | Canto inferior direito            | |
-| `DA`    | 218     | `┌`       | Canto superior esquerdo           | |
-| `DB`    | 219     | `█`       | Bloco sólido                      | |
-| `DC`    | 220     | `▄`       | Metade inferior do bloco          | |
-| `DD`    | 221     | `▌`       | Metade esquerda do bloco          | |
-| `DE`    | 222     | `▐`       | Metade direita do bloco           | |
-| `DF`    | 223     | `▀`       | Metade superior do bloco          | |
-| `E0`    | 224     | `α`       | Letra grega alfa                  | |
-| `E1`    | 225     | `ß`       | Letra alemã beta                  | |
-| `E2`    | 226     | `Γ`       | Letra grega gama                  | |
-| `E3`    | 227     | `π`       | Letra grega pi                    | |
-| `E4`    | 228     | `Σ`       | Letra grega sigma                 | |
-| `E5`    | 229     | `σ`       | Letra grega sigma minúscula       | |
-| `E6`    | 230     | `µ`       | Micro                             | |
-| `E7`    | 231     | `τ`       | Letra grega tau                   | |
-| `E8`    | 232     | `Φ`       | Letra grega phi                   | |
-| `E9`    | 233     | `Θ`       | Letra grega theta                 | |
-| `EA`    | 234     | `Ω`       | Letra grega omega                 | |
-| `EB`    | 235     | `δ`       | Letra grega delta                 | |
-| `EC`    | 236     | `∞`       | Infinito                          | |
-| `ED`    | 237     | `φ`       | Letra grega phi minúscula         | |
-| `EE`    | 238     | `ε`       | Letra grega epsilon               | |
-| `EF`    | 239     | `∩`       | Interseção                        | |
-| `F0`    | 240     | `≡`       | Equivalente                       | |
-| `F1`    | 241     | `±`       | Mais ou menos                     | | 
-| `F2`    | 242     | `≥`       | Maior ou igual                    | | 
-| `F3`    | 243     | `≤`       | Menor ou igual                    | | 
-| `F4`    | 244     | `⌠`       | Integral superior                 | |
-| `F5`    | 245     | `⌡`       | Integral inferior                 | |
-| `F6`    | 246     | `÷`       | Divisão                           | |
-| `F7`    | 247     | `≈`       | Aproximadamente                   | |
-| `F8`    | 248     | `°`       | Grau                              | |
-| `F9`    | 249     | `∙`       | Ponto de operação                 | |
-| `FA`    | 250     | `·`       | Ponto central                     | |
-| `FB`    | 251     | `√`       | Raiz quadrada                     | |
-| `FC`    | 252     | `ⁿ`       | Expoente n                        | |
-| `FD`    | 253     | `²`       | Expoente 2                        | |
-| `FE`    | 254     | `■`       | Quadrado preto                    | |
-| `FF`    | 255     | ` `       | Espaço sem quebra                 | |
+| `91`    | 145     | `‘`       | Ligatura ae                       | |
+| `92`    | 146     | `’`       | Ligatura AE                       | |
+| `93`    | 147     | `“`       | o circunflexo                     | |
+| `94`    | 148     | `”`       | o com trema                       | |
+| `95`    | 149     | `•`       | o grave                           | |
+| `96`    | 150     | `–`       | u circunflexo                     | |
+| `97`    | 151     | `—`       | u grave                           | |
+| `98`    | 152     | `˜`       | y com trema                       | |
+| `99`    | 153     | `™`       | O com trema                       | |
+| `9A`    | 154     | `š`       | U com trema                       | |
+| `9B`    | 155     | `›`       | Centavo                           | |
+| `9C`    | 156     | `œ`       | Libra esterlina                   | |
+| `9D`    | 157     | ` `       | Yen                               | |
+| `9E`    | 158     | `ž`       | Peseta                            | |
+| `9F`    | 159     | `Ÿ`       | Florim                            | |
+| `A0`    | 160     | ` `       | a agudo                           | |
+| `A1`    | 161     | `¡`       | i agudo                           | |
+| `A2`    | 162     | `¢`       | o agudo                           | |
+| `A3`    | 163     | `£`       | u agudo                           | |
+| `A4`    | 164     | `¤`       | n com til                         | |
+| `A5`    | 165     | `¥`       | N com til                         | |
+| `A6`    | 166     | `¦`       | Ordem feminina                    | |
+| `A7`    | 167     | `§`       | Ordem masculina                   | |
+| `A8`    | 168     | `¨`       | Interrogação invertida            | |
+| `A9`    | 169     | `©`       | Símbolo gráfico                   | |
+| `AA`    | 170     | `ª`       | Negação                           | |
+| `AB`    | 171     | `«`       | Meio                              | |
+| `AC`    | 172     | `¬`       | Um quarto                         | |
+| `AD`    | 173     | ` `       | Exclamação invertida              | |
+| `AE`    | 174     | `®`       | Aspas angulares esquerda          | |
+| `AF`    | 175     | `¯`       | Aspas angulares direita           | |
+| `B0`    | 176     | `°`       | Bloco claro                       | |
+| `B1`    | 177     | `±`       | Bloco médio                       | |
+| `B2`    | 178     | `²`       | Bloco escuro                      | |
+| `B3`    | 179     | `³`       | Linha vertical                    | |
+| `B4`    | 180     | `´`       | Linha vertical + direita          | |
+| `B5`    | 181     | `µ`       | Linha vertical dupla              | |
+| `B6`    | 182     | `¶`       | Linha vertical dupla + direita    | |
+| `B7`    | 183     | `·`       | Canto superior esquerdo           | |
+| `B8`    | 184     | `¸`       | Canto superior direito            | |
+| `B9`    | 185     | `¹`       | Linha vertical dupla + esquerda   | |
+| `BA`    | 186     | `º`       | Linha vertical dupla              | |
+| `BB`    | 187     | `»`       | Canto inferior direito            | |
+| `BC`    | 188     | `¼`       | Canto inferior esquerdo           | |
+| `BD`    | 189     | `½`       | Canto inferior esquerdo duplo     | |
+| `BE`    | 190     | `¾`       | Canto inferior direito duplo      | |
+| `BF`    | 191     | `¿`       | Canto superior direito            | |
+| `C0`    | 192     | `À`       | Canto inferior esquerdo           | |
+| `C1`    | 193     | `Á`       | Linha horizontal inferior         | |
+| `C2`    | 194     | `Â`       | Linha horizontal superior         | |
+| `C3`    | 195     | `Ã`       | Linha vertical + esquerda         | |
+| `C4`    | 196     | `Ä`       | Linha horizontal                  | |
+| `C5`    | 197     | `Å`       | Cruz                              | |
+| `C6`    | 198     | `Æ`       | Linha vertical dupla + esquerda   | |
+| `C7`    | 199     | `Ç`       | Linha vertical dupla + direita    | |
+| `C8`    | 200     | `È`       | Canto inferior esquerdo duplo     | |
+| `C9`    | 201     | `É`       | Canto superior esquerdo duplo     | |
+| `CA`    | 202     | `Ê`       | Linha horizontal inferior dupla   | |
+| `CB`    | 203     | `Ë`       | Linha horizontal superior dupla   | |
+| `CC`    | 204     | `Ì`       | Linha vertical dupla + esquerda   | |
+| `CD`    | 205     | `Í`       | Linha horizontal dupla            | |
+| `CE`    | 206     | `Î`       | Cruz dupla                        | |
+| `CF`    | 207     | `Ï`       | Linha horizontal inferior dupla   | |
+| `D0`    | 208     | `Ð`       | Linha horizontal inferior dupla   | |
+| `D1`    | 209     | `Ñ`       | Linha horizontal superior dupla   | |
+| `D2`    | 210     | `Ò`       | Linha horizontal superior dupla   | |
+| `D3`    | 211     | `Ó`       | Canto inferior direito duplo      | |
+| `D4`    | 212     | `Ô`       | Canto inferior esquerdo duplo     | |
+| `D5`    | 213     | `Õ`       | Canto superior esquerdo duplo     | |
+| `D6`    | 214     | `Ö`       | Canto superior direito duplo      | |
+| `D7`    | 215     | `×`       | Cruz dupla                        | |
+| `D8`    | 216     | `Ø`       | Cruz dupla                        | |
+| `D9`    | 217     | `Ù`       | Canto inferior direito            | |
+| `DA`    | 218     | `Ú`       | Canto superior esquerdo           | |
+| `DB`    | 219     | `Û`       | Bloco sólido                      | |
+| `DC`    | 220     | `Ü`       | Metade inferior do bloco          | |
+| `DD`    | 221     | `Ý`       | Metade esquerda do bloco          | |
+| `DE`    | 222     | `Þ`       | Metade direita do bloco           | |
+| `DF`    | 223     | `ß`       | Metade superior do bloco          | |
+| `E0`    | 224     | `à`       | Letra grega alfa                  | |
+| `E1`    | 225     | `á`       | Letra alemã beta                  | |
+| `E2`    | 226     | `â`       | Letra grega gama                  | |
+| `E3`    | 227     | `ã`       | Letra grega pi                    | |
+| `E4`    | 228     | `ä`       | Letra grega sigma                 | |
+| `E5`    | 229     | `å`       | Letra grega sigma minúscula       | |
+| `E6`    | 230     | `æ`       | Micro                             | |
+| `E7`    | 231     | `ç`       | Letra grega tau                   | |
+| `E8`    | 232     | `è`       | Letra grega phi                   | |
+| `E9`    | 233     | `é`       | Letra grega theta                 | |
+| `EA`    | 234     | `ê`       | Letra grega omega                 | |
+| `EB`    | 235     | `ë`       | Letra grega delta                 | |
+| `EC`    | 236     | `ì`       | Infinito                          | |
+| `ED`    | 237     | `í`       | Letra grega phi minúscula         | |
+| `EE`    | 238     | `î`       | Letra grega epsilon               | |
+| `EF`    | 239     | `ï`       | Interseção                        | |
+| `F0`    | 240     | `ð`       | Equivalente                       | |
+| `F1`    | 241     | `ñ`       | Mais ou menos                     | | 
+| `F2`    | 242     | `ò`       | Maior ou igual                    | | 
+| `F3`    | 243     | `ó`       | Menor ou igual                    | | 
+| `F4`    | 244     | `ô`       | Integral superior                 | |
+| `F5`    | 245     | `õ`       | Integral inferior                 | |
+| `F6`    | 246     | `ö`       | Divisão                           | |
+| `F7`    | 247     | `÷`       | Aproximadamente                   | |
+| `F8`    | 248     | `ø`       | Grau                              | |
+| `F9`    | 249     | `ù`       | Ponto de operação                 | |
+| `FA`    | 250     | `ú`       | Ponto central                     | |
+| `FB`    | 251     | `û`       | Raiz quadrada                     | |
+| `FC`    | 252     | `ü`       | Expoente n                        | |
+| `FD`    | 253     | `ý`       | Expoente 2                        | |
+| `FE`    | 254     | `þ`       | Quadrado preto                    | |
+| `FF`    | 255     | `ÿ`       | Espaço sem quebra                 | |
 
 | HEX     | LETRAS COM ACENTUAÇÕES | DESCRIÇÃO |
 |---------|---------|---------|
