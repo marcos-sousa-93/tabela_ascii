@@ -297,7 +297,67 @@
 | `C3 9A` | `Ú`     | letra `Ú` maiúsculo com acento agudo |
 | `C3 9B` | `Û`     | letra `Û` maiúsculo com acento circunflexo |
 | `C3 87` | `Ç`     | letra `Ç` maiúsculo com acento C cedilha |
+| `C2 A0` | ` `     | espaço inquebrável | 
 
+Vamos explorar como o UTF-8 organiza os bytes para representar caracteres Unicode. O UTF-8 usa um esquema de prefixos para indicar quantos bytes formam um caractere. Aqui está um resumo:
+### Estrutura Básica do UTF-8:
+| Intervalo Unicode       | Bytes no UTF-8      | Padrão do Byte Líder | Bytes Seguintes       |
+|-------------------------|---------------------|----------------------|-----------------------|
+| U+0000 a U+007F         | 1 byte             | `0xxxxxxx`           | —                    |
+| U+0080 a U+07FF         | 2 bytes            | `110xxxxx`           | `10xxxxxx`           |
+| U+0800 a U+FFFF         | 3 bytes            | `1110xxxx`           | `10xxxxxx` `10xxxxxx` |
+| U+10000 a U+10FFFF      | 4 bytes            | `11110xxx`           | `10xxxxxx` (3 vezes) |
+---
+### Exemplos de Combinações Válidas:
+#### 1. **Caracteres de 1 Byte (ASCII):**
+   - São bytes que começam com `0` em binário.
+   - **Intervalo Hex:** `00` a `7F`.
+   - Exemplos:
+     - `41` = `A` (maiúsculo).
+     - `24` = `$` (cifrão).
+#### 2. **Caracteres de 2 Bytes:**
+   - **Byte líder:** Inicia com `110` em binário → Hex `C0` a `DF`.
+   - **Byte seguinte:** Inicia com `10` em binário → Hex `80` a `BF`.
+   - **Exemplos:**
+     - `C3 89` = **É** (E agudo maiúsculo, U+00C9).
+     - `C2 A3` = **£** (libra esterlina, U+00A3).
+     - `C3 A9` = **é** (e agudo minúsculo, U+00E9).
+#### 3. **Caracteres de 3 Bytes:**
+   - **Byte líder:** Inicia com `1110` → Hex `E0` a `EF`.
+   - **Bytes seguintes:** Dois bytes do tipo `10xxxxxx` (`80` a `BF`).
+   - **Exemplos:**
+     - `E2 82 AC` = **€** (euro, U+20AC).
+     - `E0 A4 B9` = **ह** (devaganari, U+0939).
+     - `EF BB BF` = **BOM** (Byte Order Mark, U+FEFF).
+#### 4. **Caracteres de 4 Bytes:**
+   - **Byte líder:** Inicia com `11110` → Hex `F0` a `F7`.
+   - **Bytes seguintes:** Três bytes do tipo `10xxxxxx` (`80` a `BF`).
+   - **Exemplos:**
+     - `F0 9F 98 80` = **😀** (emoji sorridente, U+1F600).
+     - `F0 9F A6 96` = **🦖** (T-Rex, U+1F996).
+---
+### Padrões Inválidos em UTF-8:
+Algumas sequências são **proibidas**:
+- **Bytes seguidores isolados:** Qualquer byte `80`–`BF` sem um byte líder antes.
+- **Bytes líderes incompletos:** Exemplo: `C0` sozinho (deveria ter um byte seguidor).
+- **Sobre-longas:** Representar um caractere ASCII (ex: `A`) com 2 bytes (`C1 81` é inválido; o correto é `41`).
+- **Intervalos Unicode não atribuídos:** Ex: `ED A0 80` (tentativa de representar U+D800, reservado para surrogate pairs).
+---
+### Tabela de Referência Rápida:
+| Tipo          | Byte Líder (Hex) | Bytes Seguintes (Hex) | Exemplo (Hex → Caractere)        |
+|---------------|------------------|----------------------|----------------------------------|
+| **1 byte**    | `00`–`7F`        | —                    | `24` = `$`                       |
+| **2 bytes**   | `C2`–`DF`        | `80`–`BF`            | `C2 A9` = `©`                    |
+| **3 bytes**   | `E0`–`EF`        | `80`–`BF` (×2)       | `E2 99 A5` = `♥`                 |
+| **4 bytes**   | `F0`–`F7`        | `80`–`BF` (×3)       | `F0 9F 8C 88` = `🌈`             |
+---
+### Detecção Prática:
+Para identificar se uma sequência hex é UTF-8 válida:
+1. Verifique se o primeiro byte está em um intervalo de byte líder (`C0–DF`, `E0–EF`, `F0–F7`).
+2. Confirme se os próximos bytes são seguidores (`80–BF`), na quantidade esperada.
+Exemplo:  
+- `E2 82 AC` → Válido (3 bytes: líder `E2` + dois seguidores `82` e `AC`).  
+- `C2 41` → Inválido (`41` não é seguidor, pois está fora de `80-BF`).
 
 ### **Observações Importantes**:
 1. **ASCII Padrão (0x00–0x7F)**:
