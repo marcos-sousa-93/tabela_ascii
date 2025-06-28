@@ -259,47 +259,108 @@
 | `FE`    | 254     | `þ` ou `ў` | Quadrado preto                    | |
 | `FF`    | 255     | `ÿ` ou `џ` | Espaço sem quebra                 | |
 
+
 | HEX     | LETRAS COM ACENTUAÇÕES | DESCRIÇÃO |
 |---------|---------|---------|
 | `C0 80` | `P` | |
 | `C1 B0` |
-| `C3 A0` | `à`     | letra `à` minúsculo com acento grave | 
-| `C3 A1` | `á`     | letra `á` minúsculo com acento agudo |
-| `C3 A2` | `â`     | letra `â` minúsculo com acento circunflexo |
-| `C3 A3` | `ã`     | letra `ã` minúsculo com acento til |
-| `C3 A8` | `è`     | letra `è` minúsculo com acento grave |
-| `C3 A9` | `é`     | letra `é` minúsculo com acento agudo |
-| `C3 AA` | `ê`     | letra `ê` minúsculo com acento circunflexo |
-| `C3 AC` | `ì`     | letra `ì` minúsculo com acento grave |
-| `C3 AD` | `í`     | letra `í` minúsculo com acento agudo |
-| `C3 AE` | `î`     | letra `î` minúsculo com acento circunflexo |
-| `C3 B2` | `ò`     | letra `ò` minúsculo com acento grave |
-| `C3 B3` | `ó`     | letra `ó` minúsculo com acento agudo |
-| `C3 B4` | `ô`     | letra `ô` minúsculo com acento circunflexo |
-| `C3 B5` | `õ`     | letra `õ` minúsculo com acento til |
-| `C3 B9` | `ù`     | letra `ù` minúsculo com acento grave |
-| `C3 BA` | `ú`     | letra `ú` minúsculo com acento agudo |
-| `C3 BB` | `û`     | letra `û` minúsculo com acento circunflexo |
-| `C3 A7` | `ç`     | letra `ç` minúsculo com c cedilha |
+| `C2 A0` | ` `     | espaço inquebrável |
 | `C3 80` | `À`     | letra `À` maiúsculo com acento grave |
 | `C3 81` | `Á`     | letra `Á` maiúsculo com acento agudo |
 | `C3 82` | `Â`     | letra `Â` maiúsculo com acento circunflexo |
 | `C3 83` | `Ã`     | letra `Ã` maiúsculo com acento til |
+| `C3 84` | `Ä`     | |
+| `C3 85` | `Å`     | |
+| `C3 86` | `Æ`     | |
+| `C3 87` | `Ç`     | letra `Ç` maiúsculo com acento C cedilha |
 | `C3 88` | `È`     | letra `È` maiúsculo com acento grave |
 | `C3 89` | `É`     | letra `É` maiúsculo com acento agudo |
 | `C3 8A` | `Ê`     | letra `Ê` maiúsculo com acento circunflexo |
+| `C3 8B` | `Ë`     | |
 | `C3 8C` | `Ì`     | letra `Ì` maiúsculo com acento grave |
 | `C3 8D` | `Í`     | letra `Í` maiúsculo com acento agudo |
 | `C3 8E` | `Î`     | letra `Î` maiúsculo com acento circunflexo |
+| `C3 8F` | `Ï`     | |
+| `C3 90` | `Ð`     | |
+| `C3 91` | `Ñ`     | |
 | `C3 92` | `Ò`     | letra `Ò` maiúsculo com acento grave |
 | `C3 93` | `Ó`     | letra `Ó` maiúsculo com acento agudo |
 | `C3 94` | `Ô`     | letra `Ô` maiúsculo com acento circunflexo |
 | `C3 95` | `Õ`     | letra `Õ` maiúsculo com acento til |
+| `C3 96` | `Ö`     | |
+| `C3 97` | `×`     | |
+| `C3 98` | `Ø`     | |
 | `C3 99` | `Ù`     | letra `Ù` maiúsculo com acento grave |
 | `C3 9A` | `Ú`     | letra `Ú` maiúsculo com acento agudo |
 | `C3 9B` | `Û`     | letra `Û` maiúsculo com acento circunflexo |
-| `C3 87` | `Ç`     | letra `Ç` maiúsculo com acento C cedilha |
-| `C2 A0` | ` `     | espaço inquebrável | 
+| `C3 9C` | `Ü`     | |
+| `C3 9D` | `Ý`     | |
+| `C3 9E` | `Þ`     | |
+| `C3 9F` | `ß`     | |
+| `C3 A0` | `à`     | letra `à` minúsculo com acento grave | 
+| `C3 A1` | `á`     | letra `á` minúsculo com acento agudo |
+| `C3 A2` | `â`     | letra `â` minúsculo com acento circunflexo |
+| `C3 A3` | `ã`     | letra `ã` minúsculo com acento til |
+| `C3 A4` | `ä`     | |
+| `C3 A5` | `å`     | | 
+| `C3 A6` | `æ`     | |
+| `C3 A7` | `ç`     | |
+| `C3 A8` | `è`     | letra `è` minúsculo com acento grave |
+| `C3 A9` | `é`     | letra `é` minúsculo com acento agudo |
+| `C3 AA` | `ê`     | letra `ê` minúsculo com acento circunflexo |
+| `C3 AB` | `ë`     | |
+| `C3 AC` | `ì`     | letra `ì` minúsculo com acento grave |
+| `C3 AD` | `í`     | letra `í` minúsculo com acento agudo |
+| `C3 AE` | `î`     | letra `î` minúsculo com acento circunflexo |
+| `C3 AF` | `ï`     | |
+| `C3 B0` | `ð`     | |
+| `C3 B1` | `ñ`     | |
+| `C3 B2` | `ò`     | letra `ò` minúsculo com acento grave |
+| `C3 B3` | `ó`     | letra `ó` minúsculo com acento agudo |
+| `C3 B4` | `ô`     | letra `ô` minúsculo com acento circunflexo |
+| `C3 B5` | `õ`     | letra `õ` minúsculo com acento til |
+| `C3 B6` | `ö`     | |
+| `C3 B7` | `÷`     | | 
+| `C3 B8` | `ø`     | |
+| `C3 B9` | `ù`     | letra `ù` minúsculo com acento grave |
+| `C3 BA` | `ú`     | letra `ú` minúsculo com acento agudo |
+| `C3 BB` | `û`     | letra `û` minúsculo com acento circunflexo |
+| `C3 BC` | `ü`     | |
+| `C3 BD` | `ý`     | |
+| `C3 BE` | `þ`     | |
+| `C3 BF` | `ÿ`     | | 
+| `C4 80` | `Ā`     | |
+| `C4 81` | `ā`     | | 
+| `C4 82` | `Ă`     | |
+| `C4 83` | `ă`     | |
+| `C4 84` | `Ą`     | |
+| `C4 85` | `ą`     | |
+| `C4 86` | `Ć`     | |
+| `C4 87` | `ć`     | |
+| `C4 88` | `Ĉ`     | |
+| `C4 89` | `ĉ`     | |
+| `C4 8A` | `Ċ`     | |
+| `C4 8B` | `ċ`     | |
+| `C4 8C` | `Č`     | |
+| `C4 8D` | `č`     | |
+| `C4 8E` | `Ď`     | |
+| `C4 8F` | `ď`     | |
+
+## 2 BYTES
+| HEX     | INÍCIO  | FIM     |
+|---------|---------|---------|
+| `C0 80` | `C0 80` | `DF BF` |
+
+## 3 BYTES
+| HEX        | INÍCIO     | FIM        |
+|------------|------------|------------|
+| `E0 80 80` | `E0 80 80` | `EF BF BF` |
+
+## 4 BYTES
+| HEX           | INÍCIO        | FIM           |
+|---------------|---------------|---------------|
+| `F0 80 80 80` | `F0 80 80 80` | `F7 BF BF BF` |
+
 
 Vamos explorar como o UTF-8 organiza os bytes para representar caracteres Unicode. O UTF-8 usa um esquema de prefixos para indicar quantos bytes formam um caractere. Aqui está um resumo:
 ### Estrutura Básica do UTF-8:
@@ -324,6 +385,7 @@ Vamos explorar como o UTF-8 organiza os bytes para representar caracteres Unicod
      - `C3 89` = **É** (E agudo maiúsculo, U+00C9).
      - `C2 A3` = **£** (libra esterlina, U+00A3).
      - `C3 A9` = **é** (e agudo minúsculo, U+00E9).
+     - 
 #### 3. **Caracteres de 3 Bytes:**
    - **Byte líder:** Inicia com `1110` → Hex `E0` a `EF`.
    - **Bytes seguintes:** Dois bytes do tipo `10xxxxxx` (`80` a `BF`).
@@ -331,6 +393,7 @@ Vamos explorar como o UTF-8 organiza os bytes para representar caracteres Unicod
      - `E2 82 AC` = **€** (euro, U+20AC).
      - `E0 A4 B9` = **ह** (devaganari, U+0939).
      - `EF BB BF` = **BOM** (Byte Order Mark, U+FEFF).
+     - 
 #### 4. **Caracteres de 4 Bytes:**
    - **Byte líder:** Inicia com `11110` → Hex `F0` a `F7`.
    - **Bytes seguintes:** Três bytes do tipo `10xxxxxx` (`80` a `BF`).
